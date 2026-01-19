@@ -614,9 +614,9 @@ If you use MiniGPT in your research or project, please cite:
 
 **Abdelkader Hazerchi**
 
-- GitHub: @AbdelkaderHazerchi(https://github.com/AbdelkaderHazerchi)
+- GitHub: [@AbdelkaderHazerchi](https://github.com/AbdelkaderHazerchi)
 - Email: abdelkaderhaz96@gmail.com
-- LinkedIn: ‏Abdelkader Hazerchi([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/abdelkader-hazerchi-430153397/))
+- LinkedIn: ‏[Abdelkader Hazerchi]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/abdelkader-hazerchi-430153397/))
 
 ---
 
