@@ -618,7 +618,8 @@ Select the task type (Analyze a model, Use a model), then specify the folder con
 The models can be used directly through the miniGPT-Operator program.
 Select the task type (Analyze a model, Use a model), then specify the folder containing the model that can be analyzed and interacted with, provided that the folder containing the models (models) is located in the same path.*
 
-[miniGPT](https://www.dropbox.com/scl/fi/ohp32tdei4k025hs0ncrj/miniGPT.rar?rlkey=usoda580lb5qcb3ypyhqd3eff&st=7mrmp2fk&dl=1)
+miniGPT-With experimental models: [Download [720MB]](https://www.dropbox.com/scl/fi/ohp32tdei4k025hs0ncrj/miniGPT.rar?rlkey=usoda580lb5qcb3ypyhqd3eff&st=7mrmp2fk&dl=1) <br>
+miniGPT-Without experimental models: [Download [330.5MB]](https://www.dropbox.com/scl/fi/yy5cmdj69hfoo7r2bymq5/miniGPT-nm.rar?rlkey=wxdt0gkgj7gbnw2iz43bw18ar&st=f2hyh7s7&dl=1)
 ---
 
 ## Author
