@@ -6,7 +6,8 @@
 
 **A minimal, educational implementation of GPT-style transformer language models from scratch with progressive training capabilities.**
 
----
+# ![MiniGPT](miniGPT_ico.ico)
+
 
 ## 📋 Table of Contents
 
