@@ -30,21 +30,27 @@ class FastBPETokenizer:
     def encode(self, text):
         return self.tokenizer.encode(text).ids
 
-    def decode(self, ids):
+    def decode(self, ids, skip_special=True):
         tokens = []
+        special_ignore = ["<pad>", "<unk>", "<|user|>", "<|assistant|>"]  # هذه للتجاهل عند العرض
+
         for token_id in ids:
             token = self.id_to_token.get(token_id, "")
-
+            
             if token == "<|end|>":
-                break   # ⛔ توقف التوليد هنا
+                break   # توقف التوليد عند النهاية
 
-            if token not in ["<pad>", "<unk>"]:
-                tokens.append(token)
+            if skip_special:
+                if token in special_ignore:
+                    continue
+
+            tokens.append(token)
 
         text = "".join(tokens)
         text = text.replace("Ġ", " ")
         text = text.replace("Ċ", "\n")
         return text.strip()
+
 
     def save(self, path):
         self.tokenizer.save(path)
